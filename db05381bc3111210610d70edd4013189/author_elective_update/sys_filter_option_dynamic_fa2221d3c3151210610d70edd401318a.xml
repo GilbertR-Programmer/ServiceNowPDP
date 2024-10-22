@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_filter_option_dynamic">
+    <sys_filter_option_dynamic action="DELETE">
+        <active>true</active>
+        <available_for_default>false</available_for_default>
+        <available_for_filter>true</available_for_filter>
+        <available_for_ref_qual>false</available_for_ref_qual>
+        <field_type display_value="Reference">52a227c1bf3320001875647fcf07396a</field_type>
+        <label>Show only goal tasks that belong to me</label>
+        <order/>
+        <roles/>
+        <script>goal.owner == gs.getUserID();</script>
+        <script_reference_id/>
+        <script_reference_table/>
+        <sys_class_name>sys_filter_option_dynamic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 13:29:02</sys_created_on>
+        <sys_id>fa2221d3c3151210610d70edd401318a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show only goal tasks that belong to me</sys_name>
+        <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_update_name>sys_filter_option_dynamic_fa2221d3c3151210610d70edd401318a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 13:29:02</sys_updated_on>
+        <table>x_snc_personal_dev_tasks</table>
+        <table_containing_filter/>
+    </sys_filter_option_dynamic>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Personal Development">db05381bc3111210610d70edd4013189</application>
+        <file_path/>
+        <instance_id>fa5e61131bdd0ad4c8432f8dee4bcbfb</instance_id>
+        <instance_name>dev257059</instance_name>
+        <name>sys_filter_option_dynamic_fa2221d3c3151210610d70edd401318a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_filter_option_dynamic"><sys_filter_option_dynamic action="INSERT_OR_UPDATE"><active>true</active><available_for_default>false</available_for_default><available_for_filter>true</available_for_filter><available_for_ref_qual>false</available_for_ref_qual><field_type display_value="Reference">52a227c1bf3320001875647fcf07396a</field_type><label>Show only goal tasks that belong to me</label><order/><roles/><script>goal.owner == gs.getUserID();</script><script_reference_id/><script_reference_table/><sys_class_name>sys_filter_option_dynamic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-22 13:29:02</sys_created_on><sys_id>fa2221d3c3151210610d70edd401318a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Show only goal tasks that belong to me</sys_name><sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package><sys_policy/><sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope><sys_update_name>sys_filter_option_dynamic_fa2221d3c3151210610d70edd401318a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-22 13:29:02</sys_updated_on><table>x_snc_personal_dev_tasks</table><table_containing_filter/></sys_filter_option_dynamic></record_update>]]></payload>
+        <payload_hash>1365110224</payload_hash>
+        <record_name>Show only goal tasks that belong to me</record_name>
+        <reverted_from/>
+        <source>38587c5fc3111210610d70edd401315d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 13:29:02</sys_created_on>
+        <sys_id>40c22dd3c3151210610d70edd4013102</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192b46aaa5e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 13:29:02</sys_updated_on>
+        <type>Dynamic Filter Options</type>
+        <update_guid>c8c2e193fc15121073f319cbe98aff9d</update_guid>
+        <update_guid_history>c8c2e193fc15121073f319cbe98aff9d:1365110224</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 13:31:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_filter_option_dynamic">sys_filter_option_dynamic</sys_db_object>
+        <sys_id>02caeddcb6e947a481419de0ce4a98f1</sys_id>
+        <sys_metadata>fa2221d3c3151210610d70edd401318a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show only goal tasks that belong to me</sys_name>
+        <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
+        <sys_parent display_value="Tasks">c16634dbc3111210610d70edd401317a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_scope_delete display_value="">2c72ca30145042568ea542d12cd00a64</sys_scope_delete>
+        <sys_update_name>sys_filter_option_dynamic_fa2221d3c3151210610d70edd401318a</sys_update_name>
+        <sys_update_version display_value="sys_filter_option_dynamic_fa2221d3c3151210610d70edd401318a">40c22dd3c3151210610d70edd4013102</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 13:31:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
