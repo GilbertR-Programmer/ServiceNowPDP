@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=683000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Email users when one of their tasks is set to end withing the next two days</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>email_about_soon_ending_tasks</internal_name>
+        <label_cache>[{"name":"d52290a0-b5e4-4d46-90fe-a44582eb190b.Records","label":"1 - Look Up Records➛Tasks Records","reference":"x_snc_personal_dev_tasks","reference_display":"Tasks","type":"records","base_type":"records","usedInstances":{"7762dc4c-dc39-49de-9f08-cf980544b611":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by.email","label":"2 - For Each➛Tasks Record➛Goal➛Owned by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"a1e4b855-11a6-4327-91c8-73d7b78b56d7":["ah_to"]}},{"name":"7762dc4c-dc39-49de-9f08-cf980544b611.item.name","label":"2 - For Each➛Tasks Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_snc_personal_dev_tasks","column_name":"name","usedInstances":{"a1e4b855-11a6-4327-91c8-73d7b78b56d7":["ah_subject"]}},{"name":"7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by","label":"2 - For Each➛Tasks Record➛Goal➛Owned by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_personal_dev_goals","column_name":"owned_by","usedInstances":{"a1e4b855-11a6-4327-91c8-73d7b78b56d7":[null]}},{"name":"7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by.first_name","label":"2 - For Each➛Tasks Record➛Goal➛Owned by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"a1e4b855-11a6-4327-91c8-73d7b78b56d7":[null]}},{"name":"7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by.last_name","label":"2 - For Each➛Tasks Record➛Goal➛Owned by➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name","usedInstances":{"a1e4b855-11a6-4327-91c8-73d7b78b56d7":[null]}},{"name":"7762dc4c-dc39-49de-9f08-cf980544b611.item.end_date","label":"2 - For Each➛Tasks Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_personal_dev_tasks","column_name":"end_date","usedInstances":{"a1e4b855-11a6-4327-91c8-73d7b78b56d7":[null]}}]</label_cache>
+        <master_snapshot>49d5391fc3551210610d70edd4013166</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Email About soon ending tasks</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>15d5391fc3551210610d70edd4013186</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:40:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c633bd1bc3551210610d70edd40131e8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Email About soon ending tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_update_name>sys_hub_flow_c633bd1bc3551210610d70edd40131e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:24</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c633bd1bc3551210610d70edd40131e8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c633bd1bc3551210610d70edd40131e8"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2024-10-22 14:52:24</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>15d5391fc3551210610d70edd4013186</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:24</sys_updated_on>
+        <time>1970-01-01 17:00:00</time>
+        <timer_type>11</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:15d5391fc3551210610d70edd4013186^sys_idNOT INd9d5391fc3551210610d70edd4013186"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:15d5391fc3551210610d70edd4013186</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2024-10-22 14:52:24</run_start>
+        <run_time>1970-01-01 17:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('15d5391fc3551210610d70edd4013186');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:24</sys_created_on>
+        <sys_id>d9d5391fc3551210610d70edd4013186</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:24</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">15d5391fc3551210610d70edd4013186</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c633bd1bc3551210610d70edd40131e8"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=c633bd1bc3551210610d70edd40131e8"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c633bd1bc3551210610d70edd40131e8^sys_idNOT IN1233bd1bc3551210610d70edd40131eb"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c633bd1bc3551210610d70edd40131e8</id>
+        <name>Email About soon ending tasks</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:40:59</sys_created_on>
+        <sys_id>1233bd1bc3551210610d70edd40131eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:40:59</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1233bd1bc3551210610d70edd40131eb"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=c633bd1bc3551210610d70edd40131e8"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=c633bd1bc3551210610d70edd40131e8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c633bd1bc3551210610d70edd40131e8"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=c633bd1bc3551210610d70edd40131e8^sys_idNOT IN38d5391fc3551210610d70edd401312d"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Email About soon ending tasks">c633bd1bc3551210610d70edd40131e8</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:22</sys_created_on>
+        <sys_id>38d5391fc3551210610d70edd401312d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:22</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21SS0/DMAz+KyjnUaUbz96Q0CQOgMTQLghVbuJukdwkpOlGmfjvOG1BMFHlYn/297D6chAEFZIoxLNpUMyEsRGDBXruPXJ3Q0ZjGUesAashutCLIoYOZ8IFjUEUuZQzsQPqcNW3d5rXeNhCkwim1QHlMr++lKcy53cirwsp+THqIfB0TFwHobaGdEAripfXmYjsozz2mCQWoM9QK6kWc/6knF+d5dXFosrnegGI5zx3tPbXUfwn4O88+B7RamSpGqjFf9IHBP1oqf+Z2PLxxvANvLfmAyeqgDVyIIUjqLbOKHz00Tg7diJU9A066hr7MFrlWmMNHcX1dD/udC2WGn0yl+Qm7Xq1dfunb6GlsUOSCSSngH4qiDGYqovYpnMjYcNEZQPeG7spfXA7MyyzlyYb7pPV5PYs2pqNzUAl4xnfArIl92+H9hqCSSnumYaXP4fU5VuXdMcck+NyDM0D2rSeoF8apOmfaVUwPt6wwA4nu5+vXwbkhqGkAgAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=c633bd1bc3551210610d70edd40131e8^sys_idNOT IN74d5391fc3551210610d70edd4013132,bcd5391fc3551210610d70edd401312e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Email About soon ending tasks">c633bd1bc3551210610d70edd40131e8</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>7762dc4c-dc39-49de-9f08-cf980544b611</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:22</sys_created_on>
+        <sys_id>74d5391fc3551210610d70edd4013132</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:22</sys_updated_on>
+        <ui_id>a1e4b855-11a6-4327-91c8-73d7b78b56d7</ui_id>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Email About soon ending tasks">c633bd1bc3551210610d70edd40131e8</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:22</sys_created_on>
+        <sys_id>bcd5391fc3551210610d70edd401312e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:22</sys_updated_on>
+        <ui_id>d52290a0-b5e4-4d46-90fe-a44582eb190b</ui_id>
+        <values>H4sIAAAAAAAA/9VXXU/bMBT9K1WeNqmqkrYU1icQHxISUAkQ0sSY5SRO6+Hame30A9T/vus4TksboJQywaPte33OvT7HcW4fPRp7XW8vafs+Dnb2dn2/1fL9TqcV4SAMW50o9MN26NU9jocEIjUOGYHhCLPMjCdI8QilRCrBMUMxGSGN1b2CkJiqlOHpzeuR0YCyWBLudW/v6l6KJWBpIr3u49KSnqYEMRwSBhteGyq1C8OrvnYZT5JXyzIAboi43VrI2HDx6x6ZaMJjAlAJZorUvSHmMdZCTssZSXDc42w+MaBcw46eCZ4o+gDb7/kmLiFQVkTsWjQQNCK9VFPB7YxlZBcFy4b8wjI1jSUJzph2jYWZTBFoaGrIGbQCOrkaiPGlAzqhPK+jWGQiwqwcYa0lDTNNlGk6YWQIG6EhTlPK+yiVYkTzZOAybPQZDBoJE2MAVbTPGzgyxBvQC9w4gfmjfPoGS2qqOIdtIBkIUQbHimx3lchkXv4IRSxT+YLEXNm9vFneI/Q3Myxt1UV9yLYIAlQkaaoPIGFEilJm9bUkvePPzz4SPKYGUy3oGqAQlEMuj88Ork9vjs+u92M8FcmYkPt9PIBT3m/+dkG/MsAgf/AIW0bdvmrAWi/5SUxdkPjt+6ohPgJiMycdLnZg3e5VJle1tPDUk7nCU8HWPAV0P9pVWmafz1Sv2cQWXO0VN5mrY346MKoy1qy0VrT7ojh25jpQQmpkG73grVUrbKzcE0pY/OQbsAY5l9wzIqyF0+f4FsJNDMbSx6D5dT4G75RtEiPbAMoZ5fnHETYEmM+n51Kg/su314+lA8/PeS7PfA6u2VWZ4poWtYfNr9n8XJ1Q1yDpEq+AUe3asqwg7i5Yt32h0dbWNNpqPqNRUMjtY0mzbE9FJ90jypyRi38w8Xg5HtSykBDM7kqNH26GGbwVs2kwl0zYepMLFyVkV46eUdKWX27/2a11AziA1AIPWVeiMY37RM/RXVQs9Biz+6r1wmqlWfLy3v0KbL9osk4wNxSIHUmi4KgWn4EBPCtW74Ggbqc3uwZOuSb9vHnrUnSZ53hSuyw5VhIv7gJaYhSabm/xpbXVD5brcKVNXKO/xP/Nplq9+wdJpqnRhg8AAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=c633bd1bc3551210610d70edd40131e8"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=c633bd1bc3551210610d70edd40131e8^sys_idNOT INbcd5391fc3551210610d70edd4013130"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">70d5391fc3551210610d70edd4013130</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Email About soon ending tasks">c633bd1bc3551210610d70edd40131e8</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:22</sys_created_on>
+        <sys_id>bcd5391fc3551210610d70edd4013130</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:22</sys_updated_on>
+        <ui_id>7762dc4c-dc39-49de-9f08-cf980544b611</ui_id>
+        <values>H4sIAAAAAAAA/51STW/bMAz9Lzonhuw4QZ1bgaFAD1uBruhlKAxaohNhsqRJclLPyH8fFdvp0NOwU8xH8n0wGpnto+tjeLH3IaiDYfsfbyumTMLoe2RKsj3LK9lWOa/EpthtCs6LuzJvdpsmL+QGUO7YihnokCZVxC5QeQLdp3oc5bYoKg583WyxXJey3K0r3uIaynJ7V2CTV7zJnlFYL8PlQqtSBadheP1/BnFUWnqcwzjw5C2iZ/vxUysODmsNDWoSmhlo/18zL5uPc+hPN0jsVPobL/0kFwVfMXyPaCSSUAs64Ip1YCRE6we2j74nwCPIJ6OH28RRmUh0LM2+B/WbuHPO02CLlEjg1BRHqwQ+uaismZAIjV6aVved+Tb5TLfGFnodl1sT0gesJbpkLsnN2u33oz0/L0IPylyDzE1tBehbBTF61fQRQ7o3auyIqO7AOWUOtfP2pK7L5KXLDpqKrNX2TKLp/WUgkvGMbgHZA+FfrvAreJVSfCUaWr5cU9e/+qQ75Zgd11NoGgjCKxfvie6Es7nLW3qYE1OYXoBEoQIJviTscXn2qTHQv6nE39DZ+p/J6gd2+QOsTtvBQAMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c633bd1bc3551210610d70edd40131e8^sys_idNOT IN05d5391fc3551210610d70edd4013135,41d5391fc3551210610d70edd4013135,85d5391fc3551210610d70edd4013134,89d5391fc3551210610d70edd4013135,8dd5391fc3551210610d70edd4013134,c5d5391fc3551210610d70edd4013135"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>c633bd1bc3551210610d70edd40131e8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:22</sys_created_on>
+        <sys_id>05d5391fc3551210610d70edd4013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e45407ed-c99f-4649-b550-be637c3b1c72</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>c633bd1bc3551210610d70edd40131e8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:22</sys_created_on>
+        <sys_id>41d5391fc3551210610d70edd4013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>94dc75d9-48a9-4963-9166-5e8f9056e655</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>c633bd1bc3551210610d70edd40131e8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:22</sys_created_on>
+        <sys_id>85d5391fc3551210610d70edd4013134</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c76b5aa6-9e74-43c1-8467-e0ae1a90e991</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>c633bd1bc3551210610d70edd40131e8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{7762dc4c-dc39-49de-9f08-cf980544b611.item.end_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:22</sys_created_on>
+        <sys_id>89d5391fc3551210610d70edd4013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>9ba9c855-dce7-45e8-870a-426f5d0f8b95</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>c633bd1bc3551210610d70edd40131e8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:22</sys_created_on>
+        <sys_id>8dd5391fc3551210610d70edd4013134</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c92109d1-c11a-4d7d-ba75-045a51d9dfac</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>c633bd1bc3551210610d70edd40131e8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:22</sys_created_on>
+        <sys_id>c5d5391fc3551210610d70edd4013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2a09b7c0-601a-441d-9543-09fefb78f2ee</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=c633bd1bc3551210610d70edd40131e8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c633bd1bc3551210610d70edd40131e8"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_c633bd1bc3551210610d70edd40131e8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_c633bd1bc3551210610d70edd40131e8"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_c633bd1bc3551210610d70edd40131e8"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Email users when one of their tasks is set to end withing the next two days</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>email_about_soon_ending_tasks</internal_name>
+        <label_cache>[{"name":"d52290a0-b5e4-4d46-90fe-a44582eb190b.Records","label":"1 - Look Up Records➛Tasks Records","reference":"x_snc_personal_dev_tasks","reference_display":"Tasks","type":"records","base_type":"records","usedInstances":{"7762dc4c-dc39-49de-9f08-cf980544b611":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by.email","label":"2 - For Each➛Tasks Record➛Goal➛Owned by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"a1e4b855-11a6-4327-91c8-73d7b78b56d7":["ah_to"]}},{"name":"7762dc4c-dc39-49de-9f08-cf980544b611.item.name","label":"2 - For Each➛Tasks Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_snc_personal_dev_tasks","column_name":"name","usedInstances":{"a1e4b855-11a6-4327-91c8-73d7b78b56d7":["ah_subject"]}},{"name":"7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by","label":"2 - For Each➛Tasks Record➛Goal➛Owned by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_snc_personal_dev_goals","column_name":"owned_by","usedInstances":{"a1e4b855-11a6-4327-91c8-73d7b78b56d7":[null]}},{"name":"7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by.first_name","label":"2 - For Each➛Tasks Record➛Goal➛Owned by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"a1e4b855-11a6-4327-91c8-73d7b78b56d7":[null]}},{"name":"7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by.last_name","label":"2 - For Each➛Tasks Record➛Goal➛Owned by➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name","usedInstances":{"a1e4b855-11a6-4327-91c8-73d7b78b56d7":[null]}},{"name":"7762dc4c-dc39-49de-9f08-cf980544b611.item.end_date","label":"2 - For Each➛Tasks Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_personal_dev_tasks","column_name":"end_date","usedInstances":{"a1e4b855-11a6-4327-91c8-73d7b78b56d7":[null]}}]</label_cache>
+        <master>true</master>
+        <name>Email About soon ending tasks</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Email About soon ending tasks">c633bd1bc3551210610d70edd40131e8</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>49d5391fc3551210610d70edd4013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:23</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=49d5391fc3551210610d70edd4013166"/>
+    <sys_variable_value action="delete_multiple" query="document_key=49d5391fc3551210610d70edd4013166"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=49d5391fc3551210610d70edd4013166"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=49d5391fc3551210610d70edd4013166^sys_idNOT IN0dd5391fc3551210610d70edd4013167"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>49d5391fc3551210610d70edd4013166</id>
+        <name>Email About soon ending tasks</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:23</sys_created_on>
+        <sys_id>0dd5391fc3551210610d70edd4013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=0dd5391fc3551210610d70edd4013167"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=49d5391fc3551210610d70edd4013166"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=49d5391fc3551210610d70edd4013166"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=49d5391fc3551210610d70edd4013166"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=49d5391fc3551210610d70edd4013166^sys_idNOT IN45d5391fc3551210610d70edd401316d"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Email About soon ending tasks">49d5391fc3551210610d70edd4013166</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:23</sys_created_on>
+        <sys_id>45d5391fc3551210610d70edd401316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:23</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21SS0/DMAz+KyjnUaUbz96Q0CQOgMTQLghVbuJukdwkpOlGmfjvOG1BMFHlYn/297D6chAEFZIoxLNpUMyEsRGDBXruPXJ3Q0ZjGUesAashutCLIoYOZ8IFjUEUuZQzsQPqcNW3d5rXeNhCkwim1QHlMr++lKcy53cirwsp+THqIfB0TFwHobaGdEAripfXmYjsozz2mCQWoM9QK6kWc/6knF+d5dXFosrnegGI5zx3tPbXUfwn4O88+B7RamSpGqjFf9IHBP1oqf+Z2PLxxvANvLfmAyeqgDVyIIUjqLbOKHz00Tg7diJU9A066hr7MFrlWmMNHcX1dD/udC2WGn0yl+Qm7Xq1dfunb6GlsUOSCSSngH4qiDGYqovYpnMjYcNEZQPeG7spfXA7MyyzlyYb7pPV5PYs2pqNzUAl4xnfArIl92+H9hqCSSnumYaXP4fU5VuXdMcck+NyDM0D2rSeoF8apOmfaVUwPt6wwA4nu5+vXwbkhqGkAgAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=49d5391fc3551210610d70edd4013166^sys_idNOT IN8dd5391fc3551210610d70edd401316b,8dd5391fc3551210610d70edd401316c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Email About soon ending tasks">49d5391fc3551210610d70edd4013166</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:23</sys_created_on>
+        <sys_id>8dd5391fc3551210610d70edd401316b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:23</sys_updated_on>
+        <ui_id>d52290a0-b5e4-4d46-90fe-a44582eb190b</ui_id>
+        <values>H4sIAAAAAAAA/+WXbWvbMBDHv0rwqw1CcB6adXnV0rRQSBtoQ2F0nTjbcqJVkT1JzkNDvvtOlu2YxO0SSKFlL3U66f53up8lP64cFjg95zTsuC40T06/uW677brdbtuHpue1u77neh3PqTsCphQ9NXic4nAGPDHjBVHCJzGVKhLASUBnRIN6VugSMBVzWD7829OfMB5IKpze41PdiUFiLE2l01ttTe0rloNHObqOMrVb4vUyLoYknbO2QXlZ7dZORDIwUty6QxeaioCihhC4onVnCiIAHcllYZEUgqHgG8OECY07OsZ5odgLxj11jV9IMSuf2rlimEbu28LZqbAPGu61THydyMzdn0TMp8rWJKAhJFxflG3WYRhrFgm7xKZuV0c8mYpbWxKn2CA/J7QkiuL5xCZZoz5LJbyfRPO7XOkVE2ldskke+cCLEWgtmZdoo2flUE6nuBGZQhwzMSaxjGYsXYxapo0xx0Ej5NEcgyo2Fg3wjfAG1hYaV2jvp+YHkMxkcYPb4GIUxDh2CbHHqKJEpuWcEZ8nKp2QIJTdy1nXHbVUFxyU2mSOZSd/EqPb1iHLmNiimSW+ZLE+xy1mNEtuXd+LmRN303Z+JAJmVKgSOBiKYIL07nJwPrp+uByMzgJYRuGc0uczmGAfnbV+5U4/E4xBf8MMrKLeWDVwbhj+oCZTXPjl6y5x7xHimKimNcpRvSgXqapwGbQ7tkHVBhm0zaNBi3l8Nmwx+Mej9nAObQmqYcyNafttzh9HVeSuC3b9b2/25cmmBVUkNbGlL8G7y9rBaOwhIUdjaJq55i1fU5WRETLKg6rr7MpMbF1nrf/3OvuQXKCggNgTZIIzkb5PUOiRgSkIcN/+Mn/f6rW0xTb9n9rwotjlAGo6qr0cTMMecnIa7jF2bWT1VEjMr4m0ZbaviNyYQdA+GgTt1vEgWBWpFsWsqHv+LDUnmvu/GH/Y9sc2LC1orqsgOyhm89CYrfUuxO2DKC43nJ3pv9J3R367vkJl/T0/AxNcmsUjlmEyZ8GY6k303CuI9Bz4c9V8BibJDypN7x3ewZ030e02N5giLURShYdXfgg38WW1+x1p1q35sM/IHlryctzAonZXiKlUmH1KkHY6Ts+m/C25LqxZk3eO+Nb80DdqfmCVHObn9il+IY8Hw9Nf3tYX70oRAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Email About soon ending tasks">49d5391fc3551210610d70edd4013166</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>7762dc4c-dc39-49de-9f08-cf980544b611</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:23</sys_created_on>
+        <sys_id>8dd5391fc3551210610d70edd401316c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:23</sys_updated_on>
+        <ui_id>a1e4b855-11a6-4327-91c8-73d7b78b56d7</ui_id>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=49d5391fc3551210610d70edd4013166"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=49d5391fc3551210610d70edd4013166^sys_idNOT IN85d5391fc3551210610d70edd401316b"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">70d5391fc3551210610d70edd4013130</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Email About soon ending tasks">49d5391fc3551210610d70edd4013166</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:23</sys_created_on>
+        <sys_id>85d5391fc3551210610d70edd401316b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:23</sys_updated_on>
+        <ui_id>7762dc4c-dc39-49de-9f08-cf980544b611</ui_id>
+        <values>H4sIAAAAAAAA/51TwW6jMBD9F58TBIREJbeqUaVK3a2UVr2sqmiwh8SqsVnbJGVR/n3HMaFVT6s9wbyZeX7vYQZmOt923r2YW+fkXrP1r7cZkzpg9D4wKdiaZaWoyywt+SJfLfI0zW+KrFotqiwXC0CxYjOmoUGalB4bR+URVBfqYRDLPC9TSOfVEot5IYrVvExrnENRLG9yrLIyrZItcmOFO59pVUjXKuhf/5+BH6QSFkczLVjS5tGy9fCt9a/mFFSoaPRhdPfNrO/bUNooYQQex53thNIjiMjTGcMPj1ogHV+DcjhjDWgB3tierb3tCLAI4kmrfpo4SO2JjoXZDyf/0IlZmobBGskQx9icyheoFG5ilrFVb8DDM9Fz39lxnB+M5OhiHAJr6JS/+4rFgafWS6Pjig/E47ZRXaN/xjTYRHD9dIR0DncC22A2yB+91M8Hc9peld5LfQlmbCrDQU0VeG9l1fmgZ2CosCGiXQNtK/V+11pzlJdl0tIke0VFUitzokPDdU6AB+EJZQvJPeGbC/wKVgYXP4iGls8z5np3p8C5Ty8U5O53F5REZ6OHXYwhrHArW39LBxxxlHt+Czc/ck+ZculIwuVzPFz/q9Do6RZJ/hU6GfsexH9i578Ft4ReoQMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=49d5391fc3551210610d70edd4013166^sys_idNOT IN49d5391fc3551210610d70edd401316d,4dd5391fc3551210610d70edd401316d,51d5391fc3551210610d70edd401316e,c5d5391fc3551210610d70edd401316d,c9d5391fc3551210610d70edd401316d,cdd5391fc3551210610d70edd401316d"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>49d5391fc3551210610d70edd4013166</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:23</sys_created_on>
+        <sys_id>49d5391fc3551210610d70edd401316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c76b5aa6-9e74-43c1-8467-e0ae1a90e991</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>49d5391fc3551210610d70edd4013166</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:23</sys_created_on>
+        <sys_id>4dd5391fc3551210610d70edd401316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e45407ed-c99f-4649-b550-be637c3b1c72</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>49d5391fc3551210610d70edd4013166</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:23</sys_created_on>
+        <sys_id>51d5391fc3551210610d70edd401316e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2a09b7c0-601a-441d-9543-09fefb78f2ee</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>49d5391fc3551210610d70edd4013166</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:23</sys_created_on>
+        <sys_id>c5d5391fc3551210610d70edd401316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c92109d1-c11a-4d7d-ba75-045a51d9dfac</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>49d5391fc3551210610d70edd4013166</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{7762dc4c-dc39-49de-9f08-cf980544b611.item.goal.owned_by.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:23</sys_created_on>
+        <sys_id>c9d5391fc3551210610d70edd401316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>94dc75d9-48a9-4963-9166-5e8f9056e655</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>49d5391fc3551210610d70edd4013166</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{7762dc4c-dc39-49de-9f08-cf980544b611.item.end_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:23</sys_created_on>
+        <sys_id>cdd5391fc3551210610d70edd401316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>9ba9c855-dce7-45e8-870a-426f5d0f8b95</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=49d5391fc3551210610d70edd4013166"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_49d5391fc3551210610d70edd4013166"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_49d5391fc3551210610d70edd4013166"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_49d5391fc3551210610d70edd4013166"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_49d5391fc3551210610d70edd4013166"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>c633bd1bc3551210610d70edd40131e8</sys_id>
+        <latest_snapshot>49d5391fc3551210610d70edd4013166</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=c633bd1bc3551210610d70edd40131e8^sys_idNOT IN15d5391fc3551210610d70edd4013189"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>c633bd1bc3551210610d70edd40131e8</plan_id>
+        <snapshot>49d5391fc3551210610d70edd4013166</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 14:52:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>15d5391fc3551210610d70edd4013189</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 14:52:24</sys_updated_on>
+        <trigger display_value="">15d5391fc3551210610d70edd4013186</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=c633bd1bc3551210610d70edd40131e8"/>
+</record_update>

@@ -15,9 +15,9 @@
         <element attributes="edge_encryption_enabled=true" display="true" label="Title" mandatory="true" max_length="40" name="name" type="string"/>
         <element choice="3" default="low" label="Priority" max_length="40" name="priority" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Medium" value="medium"/>
-                <element inactive_on_update="false" label="Low" value="low"/>
-                <element inactive_on_update="false" label="High" value="high"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="2" value="low"/>
+                <element inactive_on_update="false" label="High" sequence="3" value="high"/>
             </choice>
         </element>
         <element label="Goal" mandatory="true" max_length="32" name="goal" reference="x_snc_personal_dev_goals" type="reference"/>
