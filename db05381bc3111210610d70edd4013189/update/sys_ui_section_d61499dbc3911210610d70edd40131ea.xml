@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-22 12:30:29</sys_created_on>
-            <sys_id>66555d53c3d11210610d70edd4013159</sys_id>
+            <sys_created_on>2024-10-22 14:27:09</sys_created_on>
+            <sys_id>ef003157c3551210610d70edd401311b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_personal_dev_tasks" sys_domain="global" view="Default view">d61499dbc3911210610d70edd40131ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-22 12:30:29</sys_updated_on>
+            <sys_updated_on>2024-10-22 14:27:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>status</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-22 12:30:29</sys_created_on>
-            <sys_id>ea555d53c3d11210610d70edd4013159</sys_id>
+            <sys_created_on>2024-10-22 14:27:09</sys_created_on>
+            <sys_id>67003157c3551210610d70edd401311c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_personal_dev_tasks" sys_domain="global" view="Default view">d61499dbc3911210610d70edd40131ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-22 12:30:29</sys_updated_on>
+            <sys_updated_on>2024-10-22 14:27:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,97 +32,111 @@
             <element>goal</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-22 12:30:29</sys_created_on>
-            <sys_id>62555d53c3d11210610d70edd401315a</sys_id>
+            <sys_created_on>2024-10-22 14:27:09</sys_created_on>
+            <sys_id>eb003157c3551210610d70edd401311c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_personal_dev_tasks" sys_domain="global" view="Default view">d61499dbc3911210610d70edd40131ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-22 12:30:29</sys_updated_on>
+            <sys_updated_on>2024-10-22 14:27:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-22 14:27:09</sys_created_on>
+            <sys_id>63003157c3551210610d70edd401311d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_personal_dev_tasks" sys_domain="global" view="Default view">d61499dbc3911210610d70edd40131ea</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-22 14:27:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-22 12:30:29</sys_created_on>
-            <sys_id>e6555d53c3d11210610d70edd401315a</sys_id>
+            <sys_created_on>2024-10-22 14:27:09</sys_created_on>
+            <sys_id>e7003157c3551210610d70edd401311d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_personal_dev_tasks" sys_domain="global" view="Default view">d61499dbc3911210610d70edd40131ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-22 12:30:29</sys_updated_on>
+            <sys_updated_on>2024-10-22 14:27:09</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>start_date</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-22 12:30:29</sys_created_on>
-            <sys_id>6e555d53c3d11210610d70edd401315a</sys_id>
+            <sys_created_on>2024-10-22 14:27:09</sys_created_on>
+            <sys_id>6f003157c3551210610d70edd401311d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_personal_dev_tasks" sys_domain="global" view="Default view">d61499dbc3911210610d70edd40131ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-22 12:30:29</sys_updated_on>
+            <sys_updated_on>2024-10-22 14:27:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>end_date</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-22 12:30:29</sys_created_on>
-            <sys_id>e2555d53c3d11210610d70edd401315b</sys_id>
+            <sys_created_on>2024-10-22 14:27:09</sys_created_on>
+            <sys_id>e3003157c3551210610d70edd401311e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_personal_dev_tasks" sys_domain="global" view="Default view">d61499dbc3911210610d70edd40131ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-22 12:30:29</sys_updated_on>
+            <sys_updated_on>2024-10-22 14:27:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-22 12:30:29</sys_created_on>
-            <sys_id>6a555d53c3d11210610d70edd401315b</sys_id>
+            <sys_created_on>2024-10-22 14:27:09</sys_created_on>
+            <sys_id>6b003157c3551210610d70edd401311e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_personal_dev_tasks" sys_domain="global" view="Default view">d61499dbc3911210610d70edd40131ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-22 12:30:29</sys_updated_on>
+            <sys_updated_on>2024-10-22 14:27:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-22 12:30:29</sys_created_on>
-            <sys_id>ee555d53c3d11210610d70edd401315b</sys_id>
+            <sys_created_on>2024-10-22 14:27:09</sys_created_on>
+            <sys_id>ef003157c3551210610d70edd401311e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_personal_dev_tasks" sys_domain="global" view="Default view">d61499dbc3911210610d70edd40131ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-22 12:30:29</sys_updated_on>
+            <sys_updated_on>2024-10-22 14:27:09</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-10-22 12:30:29</sys_created_on>
-            <sys_id>66555d53c3d11210610d70edd401315c</sys_id>
+            <sys_created_on>2024-10-22 14:27:09</sys_created_on>
+            <sys_id>67003157c3551210610d70edd401311f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_personal_dev_tasks" sys_domain="global" view="Default view">d61499dbc3911210610d70edd40131ea</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-10-22 12:30:29</sys_updated_on>
+            <sys_updated_on>2024-10-22 14:27:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

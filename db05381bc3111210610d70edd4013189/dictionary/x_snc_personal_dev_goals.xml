@@ -10,6 +10,13 @@
                 <element inactive_on_update="false" label="In Progress" value="in_progress"/>
             </choice>
         </element>
+        <element choice="3" default="low" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" value="low"/>
+                <element inactive_on_update="false" label="Medium" value="medium"/>
+                <element inactive_on_update="false" label="High" value="high"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="owned_by"/>
         </index>

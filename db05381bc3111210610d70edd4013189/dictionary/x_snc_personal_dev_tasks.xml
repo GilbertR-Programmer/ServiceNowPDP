@@ -2,10 +2,10 @@
     <element db_object_id="c16634dbc3111210610d70edd401317a" label="Tasks" max_length="40" name="x_snc_personal_dev_tasks" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="3" default="pending" label="Status" max_length="40" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="In Progress" value="in_progress"/>
                 <element inactive_on_update="false" label="Complete" value="complete"/>
-                <element inactive_on_update="false" label="Complete-Approved" value="complete_approved"/>
+                <element inactive_on_update="false" label="In Progress" value="in_progress"/>
                 <element inactive_on_update="false" label="Pending" value="pending"/>
+                <element inactive_on_update="false" label="Complete-Approved" value="complete_approved"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
@@ -13,6 +13,13 @@
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Title" mandatory="true" max_length="40" name="name" type="string"/>
+        <element choice="3" default="low" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" value="medium"/>
+                <element inactive_on_update="false" label="Low" value="low"/>
+                <element inactive_on_update="false" label="High" value="high"/>
+            </choice>
+        </element>
         <element label="Goal" mandatory="true" max_length="32" name="goal" reference="x_snc_personal_dev_goals" type="reference"/>
         <index name="index">
             <element name="goal"/>
