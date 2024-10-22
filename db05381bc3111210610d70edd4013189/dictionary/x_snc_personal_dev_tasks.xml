@@ -4,14 +4,18 @@
             <choice>
                 <element inactive_on_update="false" label="In Progress" value="in_progress"/>
                 <element inactive_on_update="false" label="Complete" value="complete"/>
-                <element inactive_on_update="false" label="Pending" value="pending"/>
                 <element inactive_on_update="false" label="Complete-Approved" value="complete_approved"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" label="Description" max_length="100" name="description" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="100" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Title" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Goal" mandatory="true" max_length="32" name="goal" reference="x_snc_personal_dev_goals" type="reference"/>
+        <index name="index">
+            <element name="goal"/>
+        </index>
     </element>
 </database>
