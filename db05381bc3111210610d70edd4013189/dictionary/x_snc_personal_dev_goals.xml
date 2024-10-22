@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c6c67cdbc3111210610d70edd4013104" label="goals" max_length="40" name="x_snc_personal_dev_goals" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="pending" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+                <element inactive_on_update="false" label="In Progress" value="in_progress"/>
+                <element inactive_on_update="false" label="Complete" value="complete"/>
+                <element inactive_on_update="false" label="Complete-Approved" value="complete_approved"/>
+            </choice>
+        </element>
+    </element>
+</database>
