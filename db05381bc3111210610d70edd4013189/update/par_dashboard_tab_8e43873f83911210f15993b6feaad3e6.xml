@@ -3,21 +3,21 @@
         <active>true</active>
         <background_color/>
         <dashboard display_value="PDP Student Dashboard">c347327783511210f15993b6feaad313</dashboard>
-        <name>My Goals</name>
-        <order>0</order>
+        <name>My Tasks</name>
+        <order>1</order>
         <sys_class_name>par_dashboard_tab</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-24 08:55:22</sys_created_on>
+        <sys_created_on>2024-10-24 09:47:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>0747727f83511210f15993b6feaad3dd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>My Goals</sys_name>
+        <sys_id>8e43873f83911210f15993b6feaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Tasks</sys_name>
         <sys_overrides/>
         <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
         <sys_policy/>
         <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
-        <sys_update_name>par_dashboard_tab_0747727f83511210f15993b6feaad3dd</sys_update_name>
+        <sys_update_name>par_dashboard_tab_8e43873f83911210f15993b6feaad3e6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-24 09:47:44</sys_updated_on>
     </par_dashboard_tab>
