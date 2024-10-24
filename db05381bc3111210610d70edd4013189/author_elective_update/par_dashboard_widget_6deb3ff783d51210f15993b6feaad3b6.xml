@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">29eb3ff783d51210f15993b6feaad3b4</canvas>
+        <component display_value="Line">18ac962264404bcc0039359d184b15f3</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showClosestSeriesOnHover":false,"showXGrid":false,"showDateRangeByDefault":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","colorConfig":{"type":"default"},"chartVariation":"stacked","extensionType":"line","newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Tasks","sourceType":"table","tableOrViewName":"x_snc_personal_dev_tasks","filterQuery":"status=complete","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X3NuY19wZXJzb25hbF9kZXZfdGFza3MxNzI5Nzc4MDUzODE1","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"Tasks Complete Over Time","headingLevel":2,"showBorder":false,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4X3NuY19wZXJzb25hbF9kZXZfdGFza3MxNzI5Nzc4MDUzODE1","id":"ZEdGaWJHVjRYM051WTE5d1pYSnpiMjVoYkY5a1pYWmZkR0Z6YTNNeE56STVOemM0TURVek9ERTExNzI5Nzc4MDU2MjMw","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"sortBy":"value","sortByOrder":"desc","trendBy":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"sys_updated_on","metric":"ZEdGaWJHVjRYM051WTE5d1pYSnpiMjVoYkY5a1pYWmZkR0Z6YTNNeE56STVOemM0TURVek9ERTExNzI5Nzc4MDU2MjMw"}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"ik0pii43","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"period":null,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"id":"trendBy","value":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"sys_updated_on","metric":"ZEdGaWJHVjRYM051WTE5d1pYSnpiMjVoYkY5a1pYWmZkR0Z6YTNNeE56STVOemM0TURVek9ERTExNzI5Nzc4MDU2MjMw"}]},"noDebounce":true,"propLabel":"Trend by"}</component_props>
+        <h>25</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 13:55:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6deb3ff783d51210f15993b6feaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_update_name>par_dashboard_widget_6deb3ff783d51210f15993b6feaad3b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 13:55:05</sys_updated_on>
+        <visualization/>
+        <w>23</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Personal Development">db05381bc3111210610d70edd4013189</application>
+        <file_path/>
+        <instance_id>17f1e4f21bd9065419254089bd4bcb26</instance_id>
+        <instance_name>dev254922</instance_name>
+        <name>par_dashboard_widget_6deb3ff783d51210f15993b6feaad3b6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">29eb3ff783d51210f15993b6feaad3b4</canvas><component display_value="Line">18ac962264404bcc0039359d184b15f3</component><component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","showDataLabels":false,"disableTooltip":false,"showClosestSeriesOnHover":false,"showXGrid":false,"showDateRangeByDefault":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","colorConfig":{"type":"default"},"chartVariation":"stacked","extensionType":"line","newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Tasks","sourceType":"table","tableOrViewName":"x_snc_personal_dev_tasks","filterQuery":"status=complete","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4X3NuY19wZXJzb25hbF9kZXZfdGFza3MxNzI5Nzc4MDUzODE1","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"Tasks Complete Over Time","headingLevel":2,"showBorder":false,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4X3NuY19wZXJzb25hbF9kZXZfdGFza3MxNzI5Nzc4MDUzODE1","id":"ZEdGaWJHVjRYM051WTE5d1pYSnpiMjVoYkY5a1pYWmZkR0Z6YTNNeE56STVOemM0TURVek9ERTExNzI5Nzc4MDU2MjMw","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"sortBy":"value","sortByOrder":"desc","trendBy":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"sys_updated_on","metric":"ZEdGaWJHVjRYM051WTE5d1pYSnpiMjVoYkY5a1pYWmZkR0Z6YTNNeE56STVOemM0TURVek9ERTExNzI5Nzc4MDU2MjMw"}]},"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"ik0pii43","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":null,"startTime":null,"endTime":null,"period":null,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"id":"trendBy","value":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"sys_updated_on","metric":"ZEdGaWJHVjRYM051WTE5d1pYSnpiMjVoYkY5a1pYWmZkR0Z6YTNNeE56STVOemM0TURVek9ERTExNzI5Nzc4MDU2MjMw"}]},"noDebounce":true,"propLabel":"Trend by"}</component_props><h>25</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-24 13:55:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6deb3ff783d51210f15993b6feaad3b6</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package><sys_policy/><sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope><sys_update_name>par_dashboard_widget_6deb3ff783d51210f15993b6feaad3b6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-24 13:55:05</sys_updated_on><visualization/><w>23</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1040428703</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7a66c6e383111210f15993b6feaad3d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 13:55:05</sys_created_on>
+        <sys_id>2deb3ff783d51210f15993b6feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192becf3da90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 13:55:05</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>21eb3ff772d51210403fb4b55e5baab8</update_guid>
+        <update_guid_history>21eb3ff772d51210403fb4b55e5baab8:1040428703</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">65ebfff783d51210f15993b6feaad344</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 13:55:05</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>55434cda9971496bbdf1d2b68074a179</sys_id>
+        <sys_metadata>6deb3ff783d51210f15993b6feaad3b6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_scope_delete display_value="">2c72ca30145042568ea542d12cd00a64</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_6deb3ff783d51210f15993b6feaad3b6</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_6deb3ff783d51210f15993b6feaad3b6">2deb3ff783d51210f15993b6feaad3b8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 13:55:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
