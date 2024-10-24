@@ -4,7 +4,6 @@
         <element label="Owned by" max_length="32" name="owned_by" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="pending" label="Status" max_length="40" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Complete-Approved" value="complete_approved"/>
                 <element inactive_on_update="false" label="Pending" value="pending"/>
                 <element inactive_on_update="false" label="Complete" value="complete"/>
                 <element inactive_on_update="false" label="In Progress" value="in_progress"/>

@@ -5,7 +5,6 @@
                 <element inactive_on_update="false" label="Complete" value="complete"/>
                 <element inactive_on_update="false" label="In Progress" value="in_progress"/>
                 <element inactive_on_update="false" label="Pending" value="pending"/>
-                <element inactive_on_update="false" label="Complete-Approved" value="complete_approved"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
