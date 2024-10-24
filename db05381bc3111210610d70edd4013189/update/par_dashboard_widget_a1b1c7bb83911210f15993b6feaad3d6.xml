@@ -3,7 +3,7 @@
         <canvas display_value="">8747727f83511210f15993b6feaad3e0</canvas>
         <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
         <component_props>{"table":"x_snc_personal_dev_goals","columnPreferenceKey":"","fixedQuery":"","followFilters":true,"listTitle":"My Goals","columns":"name,priority,owned_by,status","query":"active=true","groupByField":null,"hideViewAll":true,"hideHighlightedValues":false,"showBorder":false,"bare":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"color":"lime","patterns":["Complete"]},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":true,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"isDashboard":true,"id":"hideHighlightedValues","value":false,"noDebounce":true,"propLabel":"Hide highlighted values"}</component_props>
-        <h>28</h>
+        <h>21</h>
         <name/>
         <stored_component/>
         <sys_class_name>par_dashboard_widget</sys_class_name>
@@ -12,7 +12,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a1b1c7bb83911210f15993b6feaad3d6</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
@@ -20,7 +20,7 @@
         <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
         <sys_update_name>par_dashboard_widget_a1b1c7bb83911210f15993b6feaad3d6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-24 12:26:59</sys_updated_on>
+        <sys_updated_on>2024-10-24 12:38:35</sys_updated_on>
         <visualization/>
         <w>48</w>
         <widget_props/>
