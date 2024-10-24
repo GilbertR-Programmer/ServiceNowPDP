@@ -2,25 +2,29 @@
     <element db_object_id="c16634dbc3111210610d70edd401317a" label="Tasks" max_length="40" name="x_snc_personal_dev_tasks" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="3" default="pending" label="Status" max_length="40" name="status" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
                 <element inactive_on_update="false" label="Complete" value="complete"/>
                 <element inactive_on_update="false" label="In Progress" value="in_progress"/>
-                <element inactive_on_update="false" label="Pending" value="pending"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="100" name="description" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Title" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Goal" mandatory="true" max_length="32" name="goal" reference="x_snc_personal_dev_goals" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
         <element choice="3" default="low" label="Priority" max_length="40" name="priority" type="choice">
             <choice>
+                <element inactive_on_update="false" label="High" sequence="3" value="high"/>
                 <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
                 <element inactive_on_update="false" label="Low" sequence="2" value="low"/>
-                <element inactive_on_update="false" label="High" sequence="3" value="high"/>
             </choice>
         </element>
-        <element label="Goal" mandatory="true" max_length="32" name="goal" reference="x_snc_personal_dev_goals" type="reference"/>
+        <element label="Created By" max_length="32" name="created_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="100" name="description" type="string"/>
         <index name="index">
+            <element name="created_by"/>
+        </index>
+        <index name="index2">
             <element name="goal"/>
         </index>
     </element>
