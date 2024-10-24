@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">ca43873f83911210f15993b6feaad3e9</canvas>
+        <component display_value="Rich text">2d56f06d55f46bbd4e79b5e624beb940</component>
+        <component_props>{"html":"&lt;p&gt;&amp;lt;form action=\"/submit-url\" method=\"post\"&amp;gt; &amp;lt;label for=\"name\"&amp;gt;Name:&amp;lt;/label&amp;gt; &amp;lt;input type=\"text\" id=\"name\" name=\"name\"&amp;gt; &amp;lt;button type=\"submit\"&amp;gt;Submit&amp;lt;/button&amp;gt; &amp;lt;/form&amp;gt;&lt;/p&gt;","id":"html","value":"&lt;p&gt;&amp;lt;form action=\"/submit-url\" method=\"post\"&amp;gt; &amp;lt;label for=\"name\"&amp;gt;Name:&amp;lt;/label&amp;gt; &amp;lt;input type=\"text\" id=\"name\" name=\"name\"&amp;gt; &amp;lt;button type=\"submit\"&amp;gt;Submit&amp;lt;/button&amp;gt; &amp;lt;/form&amp;gt;&lt;/p&gt;","noDebounce":true,"propLabel":"HTML"}</component_props>
+        <h>13</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 11:42:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c8addbbf83151210f15993b6feaad3c1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_update_name>par_dashboard_widget_c8addbbf83151210f15993b6feaad3c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 12:01:31</sys_updated_on>
+        <visualization/>
+        <w>13</w>
+        <widget_props/>
+        <x>0</x>
+        <y>30</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Personal Development">db05381bc3111210610d70edd4013189</application>
+        <file_path/>
+        <instance_id>17f1e4f21bd9065419254089bd4bcb26</instance_id>
+        <instance_name>dev254922</instance_name>
+        <name>par_dashboard_widget_c8addbbf83151210f15993b6feaad3c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">ca43873f83911210f15993b6feaad3e9</canvas><component display_value="Rich text">2d56f06d55f46bbd4e79b5e624beb940</component><component_props>{"html":"&lt;p&gt;&amp;lt;form action=\"/submit-url\" method=\"post\"&amp;gt; &amp;lt;label for=\"name\"&amp;gt;Name:&amp;lt;/label&amp;gt; &amp;lt;input type=\"text\" id=\"name\" name=\"name\"&amp;gt; &amp;lt;button type=\"submit\"&amp;gt;Submit&amp;lt;/button&amp;gt; &amp;lt;/form&amp;gt;&lt;/p&gt;","id":"html","value":"&lt;p&gt;&amp;lt;form action=\"/submit-url\" method=\"post\"&amp;gt; &amp;lt;label for=\"name\"&amp;gt;Name:&amp;lt;/label&amp;gt; &amp;lt;input type=\"text\" id=\"name\" name=\"name\"&amp;gt; &amp;lt;button type=\"submit\"&amp;gt;Submit&amp;lt;/button&amp;gt; &amp;lt;/form&amp;gt;&lt;/p&gt;","noDebounce":true,"propLabel":"HTML"}</component_props><h>13</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-24 11:42:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c8addbbf83151210f15993b6feaad3c1</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package><sys_policy/><sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope><sys_update_name>par_dashboard_widget_c8addbbf83151210f15993b6feaad3c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-24 12:01:31</sys_updated_on><visualization/><w>13</w><widget_props/><x>0</x><y>30</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-6587162</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7a66c6e383111210f15993b6feaad3d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 12:01:31</sys_created_on>
+        <sys_id>79e1ab3783551210f15993b6feaad3c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192be6744fd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 12:01:31</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>31e1ab37f755121020f2e28ae86f10c5</update_guid>
+        <update_guid_history>31e1ab37f755121020f2e28ae86f10c5:-6587162,1dae9b33e055121080a354679bcc9a42:-815544986,cf6e5733cd551210d6cf24d291b515ed:434932422,c4addbbf351512101a6800ee6ce684c3:1835110436</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">852267ff83151210f15993b6feaad3ab</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 12:02:33</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>1eaf58673e884aac8c29f15a2d3ff4a4</sys_id>
+        <sys_metadata>c8addbbf83151210f15993b6feaad3c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_scope_delete display_value="">2c72ca30145042568ea542d12cd00a64</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_c8addbbf83151210f15993b6feaad3c1</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_c8addbbf83151210f15993b6feaad3c1">79e1ab3783551210f15993b6feaad3c5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 12:02:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
