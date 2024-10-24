@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">8747727f83511210f15993b6feaad3e0</canvas>
+        <component display_value="Image">15fe506403f8a98575b6df59008ea8f1</component>
+        <component_props>{"src":"/now-image-placeholder.jpg","sources":"[]","fit":"fill","position":"center center","alt":"","href":"https://www.servicenow.com/","configAria":"{\"link\":{}}"}</component_props>
+        <h>13</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 11:03:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4fa4dbb383151210f15993b6feaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_update_name>par_dashboard_widget_4fa4dbb383151210f15993b6feaad34b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 11:03:43</sys_updated_on>
+        <visualization/>
+        <w>13</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Personal Development">db05381bc3111210610d70edd4013189</application>
+        <file_path/>
+        <instance_id>17f1e4f21bd9065419254089bd4bcb26</instance_id>
+        <instance_name>dev254922</instance_name>
+        <name>par_dashboard_widget_4fa4dbb383151210f15993b6feaad34b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">8747727f83511210f15993b6feaad3e0</canvas><component display_value="Image">15fe506403f8a98575b6df59008ea8f1</component><component_props>{"src":"/now-image-placeholder.jpg","sources":"[]","fit":"fill","position":"center center","alt":"","href":"https://www.servicenow.com/","configAria":"{\"link\":{}}"}</component_props><h>13</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-24 11:03:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4fa4dbb383151210f15993b6feaad34b</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package><sys_policy/><sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope><sys_update_name>par_dashboard_widget_4fa4dbb383151210f15993b6feaad34b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-24 11:03:43</sys_updated_on><visualization/><w>13</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1346285545</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7a66c6e383111210f15993b6feaad3d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 11:03:43</sys_created_on>
+        <sys_id>83a4dbb383151210f15993b6feaad34f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192be3258610000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 11:03:43</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>87a4dbb3c71512102a272ce6bb8bcd4e</update_guid>
+        <update_guid_history>87a4dbb3c71512102a272ce6bb8bcd4e:1346285545</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">37c457b383151210f15993b6feaad3f0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 11:04:18</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>91df1e5ab5aa4359b46b5c6df3265e01</sys_id>
+        <sys_metadata>4fa4dbb383151210f15993b6feaad34b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_scope_delete display_value="">2c72ca30145042568ea542d12cd00a64</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_4fa4dbb383151210f15993b6feaad34b</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_4fa4dbb383151210f15993b6feaad34b">83a4dbb383151210f15993b6feaad34f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 11:04:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

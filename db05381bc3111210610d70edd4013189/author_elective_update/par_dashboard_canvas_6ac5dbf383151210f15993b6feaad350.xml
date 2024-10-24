@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="DELETE">
+        <dashboard display_value="PDP Student Dashboard">c347327783511210f15993b6feaad313</dashboard>
+        <dashboard_tab display_value="Overview">eec5dbf383151210f15993b6feaad34c</dashboard_tab>
+        <layout>[]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 11:08:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6ac5dbf383151210f15993b6feaad350</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_update_name>par_dashboard_canvas_6ac5dbf383151210f15993b6feaad350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 11:21:57</sys_updated_on>
+    </par_dashboard_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Personal Development">db05381bc3111210610d70edd4013189</application>
+        <file_path/>
+        <instance_id>17f1e4f21bd9065419254089bd4bcb26</instance_id>
+        <instance_name>dev254922</instance_name>
+        <name>par_dashboard_canvas_6ac5dbf383151210f15993b6feaad350</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="PDP Student Dashboard">c347327783511210f15993b6feaad313</dashboard><dashboard_tab display_value="Overview">eec5dbf383151210f15993b6feaad34c</dashboard_tab><layout>[]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-24 11:08:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6ac5dbf383151210f15993b6feaad350</sys_id><sys_mod_count>9</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package><sys_policy/><sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope><sys_update_name>par_dashboard_canvas_6ac5dbf383151210f15993b6feaad350</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-24 11:21:57</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+        <payload_hash>-828882552</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7a66c6e383111210f15993b6feaad3d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 11:21:57</sys_created_on>
+        <sys_id>ded89b3b83151210f15993b6feaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192be4309130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 11:21:57</sys_updated_on>
+        <type>PAR Dashboard Page Canvas</type>
+        <update_guid>86d89b3b621512103a0c4371f14b2591</update_guid>
+        <update_guid_history>86d89b3b621512103a0c4371f14b2591:-828882552,30781ff78f151210a76a0ef9909583cf:-55273626,0e685ff7ab151210d9ad94d8182a3cde:-1399663997,bf289bf7421512103f5ad2806d0c9cf9:-99191147,6108d7f75d151210508dbf4fec466e04:1658516778,c3d793f7cc1512102dddfe1cc04cbaa7:-1967821365,cc4797b7cf151210cecff0881e6cb089:-1879610558,04f6df77291512104a9d653aa1483d86:-565343774,76c5d73740151210a87f0511d09b8b9e:-1876868670,aec5dbf3b8151210ba28fe0e645bde51:-1509703959</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">b1f85f3b83151210f15993b6feaad366</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-24 11:22:28</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_canvas">par_dashboard_canvas</sys_db_object>
+        <sys_id>05f562aced7a4b3c8bbaa3c87717de24</sys_id>
+        <sys_metadata>6ac5dbf383151210f15993b6feaad350</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
+        <sys_scope_delete display_value="">2c72ca30145042568ea542d12cd00a64</sys_scope_delete>
+        <sys_update_name>par_dashboard_canvas_6ac5dbf383151210f15993b6feaad350</sys_update_name>
+        <sys_update_version display_value="par_dashboard_canvas_6ac5dbf383151210f15993b6feaad350">ded89b3b83151210f15993b6feaad391</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-24 11:22:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
