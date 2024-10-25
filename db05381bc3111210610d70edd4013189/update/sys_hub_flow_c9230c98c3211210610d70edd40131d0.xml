@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=10886000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=11323000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>notify_manager_when_a_goal_is_set_to_comlete</internal_name>
-        <label_cache>[{"name":"Updated_1.current.owned_by.manager.first_name","label":"Trigger - Record Updated➛Goals Record➛Owned by➛Manager➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":[null]}},{"name":"Updated_1.current.owned_by.last_name","label":"Trigger - Record Updated➛Goals Record➛Owned by➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":["ah_subject"]}},{"name":"Updated_1.current.owned_by.first_name","label":"Trigger - Record Updated➛Goals Record➛Owned by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":["ah_subject",null]}},{"name":"Updated_1.current.name","label":"Trigger - Record Updated➛Goals Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_snc_personal_dev_goals","column_name":"name","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":["ah_subject",null]}},{"name":"Updated_1.current.owned_by.manager.email","label":"Trigger - Record Updated➛Goals Record➛Owned by➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":["ah_to"]}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.owned_by.manager.email","label":"Trigger - Record Updated➛Goals Record➛Owned by➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":["ah_to"]}},{"name":"Updated_1.current.name","label":"Trigger - Record Updated➛Goals Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_snc_personal_dev_goals","column_name":"name","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":["ah_subject",null]}},{"name":"Updated_1.current.owned_by.first_name","label":"Trigger - Record Updated➛Goals Record➛Owned by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":["ah_subject",null]}},{"name":"Updated_1.current.owned_by.last_name","label":"Trigger - Record Updated➛Goals Record➛Owned by➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":["ah_subject"]}},{"name":"Updated_1.current.owned_by.manager.first_name","label":"Trigger - Record Updated➛Goals Record➛Owned by➛Manager➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":[null]}}]</label_cache>
         <master_snapshot>9cdfcc98c3611210610d70edd40131f8</master_snapshot>
         <master_snapshot_digest/>
         <name>Notify manager when a goal is set to comlete</name>
@@ -23,7 +23,7 @@
         <outputs/>
         <pre_compiled>false</pre_compiled>
         <remote_trigger_id>7cdf00d8c3611210610d70edd4013131</remote_trigger_id>
-        <run_as>user</run_as>
+        <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c9230c98c3211210610d70edd40131d0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Notify manager when a goal is set to comlete</sys_name>
         <sys_overrides/>
         <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
         <sys_update_name>sys_hub_flow_c9230c98c3211210610d70edd40131d0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-25 12:07:29</sys_updated_on>
+        <sys_updated_on>2024-10-25 12:13:58</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -82,14 +82,14 @@
         <identifier>c9230c98c3211210610d70edd40131d0</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-10-25 12:06:41</sys_created_on>
-        <sys_id>d3ac60dcc3e11210610d70edd40131c3</sys_id>
+        <sys_created_on>2024-10-25 12:13:58</sys_created_on>
+        <sys_id>c65ea450c3251210610d70edd4013137</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-25 12:06:41</sys_updated_on>
+        <sys_updated_on>2024-10-25 12:13:58</sys_updated_on>
         <trigger display_value="">7cdf00d8c3611210610d70edd4013131</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c9230c98c3211210610d70edd40131d0^sys_idNOT INd3ac60dcc3e11210610d70edd40131c3"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=c9230c98c3211210610d70edd40131d0^sys_idNOT INc65ea450c3251210610d70edd4013137"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=c9230c98c3211210610d70edd40131d0"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=c9230c98c3211210610d70edd40131d0^sys_idNOT IN01230c98c3211210610d70edd40131d3"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -493,7 +493,7 @@
         <sys_created_on>2024-10-25 09:55:52</sys_created_on>
         <sys_id>43bec058c3611210610d70edd40131f2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Record</sys_name>
+        <sys_name/>
         <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
         <sys_policy/>
         <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
@@ -516,7 +516,7 @@
         <sys_created_on>2024-10-25 09:55:52</sys_created_on>
         <sys_id>43bec058c3611210610d70edd40131f6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Changed Fields</sys_name>
+        <sys_name/>
         <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
         <sys_policy/>
         <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
@@ -539,7 +539,7 @@
         <sys_created_on>2024-10-25 09:55:52</sys_created_on>
         <sys_id>c3bec058c3611210610d70edd40131f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Table Name</sys_name>
+        <sys_name/>
         <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
         <sys_policy/>
         <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
@@ -566,14 +566,14 @@
         <description>When a goal is set to complete notify the students manager</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>notify_manager_when_a_goal_is_set_to_comlete</internal_name>
-        <label_cache>[{"name":"Updated_1.current.owned_by.manager.first_name","label":"Trigger - Record Updated➛Goals Record➛Owned by➛Manager➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":[null]}},{"name":"Updated_1.current.owned_by.last_name","label":"Trigger - Record Updated➛Goals Record➛Owned by➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":["ah_subject"]}},{"name":"Updated_1.current.owned_by.first_name","label":"Trigger - Record Updated➛Goals Record➛Owned by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":["ah_subject",null]}},{"name":"Updated_1.current.name","label":"Trigger - Record Updated➛Goals Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_snc_personal_dev_goals","column_name":"name","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":["ah_subject",null]}},{"name":"Updated_1.current.owned_by.manager.email","label":"Trigger - Record Updated➛Goals Record➛Owned by➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":["ah_to"]}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.owned_by.manager.email","label":"Trigger - Record Updated➛Goals Record➛Owned by➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":["ah_to"]}},{"name":"Updated_1.current.name","label":"Trigger - Record Updated➛Goals Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_snc_personal_dev_goals","column_name":"name","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":["ah_subject",null]}},{"name":"Updated_1.current.owned_by.first_name","label":"Trigger - Record Updated➛Goals Record➛Owned by➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":["ah_subject",null]}},{"name":"Updated_1.current.owned_by.last_name","label":"Trigger - Record Updated➛Goals Record➛Owned by➛Last name","reference":"","reference_display":"Last name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"last_name","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":["ah_subject"]}},{"name":"Updated_1.current.owned_by.manager.first_name","label":"Trigger - Record Updated➛Goals Record➛Owned by➛Manager➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"48b680fb-8def-4089-a79e-74078c8f6fbf":[null]}}]</label_cache>
         <master>true</master>
         <name>Notify manager when a goal is set to comlete</name>
         <natlang/>
         <outputs/>
         <parent_flow display_value="Notify manager when a goal is set to comlete">c9230c98c3211210610d70edd40131d0</parent_flow>
         <remote_trigger_id/>
-        <run_as>user</run_as>
+        <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <status>published</status>
@@ -583,7 +583,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9cdfcc98c3611210610d70edd40131f8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -591,7 +591,7 @@
         <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-25 12:06:41</sys_updated_on>
+        <sys_updated_on>2024-10-25 12:13:58</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -782,14 +782,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-25 10:00:36</sys_created_on>
         <sys_id>20df00d8c3611210610d70edd401311c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-25 12:06:41</sys_updated_on>
+        <sys_updated_on>2024-10-25 12:13:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -866,14 +866,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-25 10:00:36</sys_created_on>
         <sys_id>d4dfcc98c3611210610d70edd40131fb</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-25 12:06:41</sys_updated_on>
+        <sys_updated_on>2024-10-25 12:13:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1000,7 +1000,7 @@
         <sys_created_on>2024-10-25 10:00:37</sys_created_on>
         <sys_id>28df00d8c3611210610d70edd4013120</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Table Name</sys_name>
+        <sys_name/>
         <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
         <sys_policy/>
         <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
@@ -1023,7 +1023,7 @@
         <sys_created_on>2024-10-25 10:00:36</sys_created_on>
         <sys_id>90df00d8c3611210610d70edd4013112</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Record</sys_name>
+        <sys_name/>
         <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
         <sys_policy/>
         <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
@@ -1046,7 +1046,7 @@
         <sys_created_on>2024-10-25 10:00:36</sys_created_on>
         <sys_id>a4df00d8c3611210610d70edd4013119</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Changed Fields</sys_name>
+        <sys_name/>
         <sys_package display_value="Personal Development" source="x_snc_personal_dev">db05381bc3111210610d70edd4013189</sys_package>
         <sys_policy/>
         <sys_scope display_value="Personal Development">db05381bc3111210610d70edd4013189</sys_scope>
